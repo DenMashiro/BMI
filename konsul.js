@@ -15,7 +15,7 @@ function kirimData() {
 
     // Buat pesan WhatsApp
     var pesan = `Nama: ${nama}%0AEmail: ${email}%0ANomor Telepon: ${telepon}%0AAlamat: ${alamat}%0AKeluh Kesah: ${keluh}`;
-    var url = `https://api.whatsapp.com/send?phone=087737878998&text=${pesan}`;
+    var url = `https://api.whatsapp.com/send?phone=+6287737878998&text=${pesan}`;
 
     // Buka URL WhatsApp
     window.open(url, '_blank');
