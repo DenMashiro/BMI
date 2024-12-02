@@ -1,0 +1,72 @@
+
+
+.tombol-kembali{
+    display: flex;
+    margin: 20px;
+    background-color: #4da19d;
+    gap: 5px;
+    align-items: center ;
+    width: 140px;
+    border-radius:10px;
+    transition: 0.3s;
+}
+
+.tombol-kembali:hover{
+    transform: translateY(-5px);
+    background-color: #30807c;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.arrow-kiri{
+    height: 40px;
+    padding: 5px;
+}
+.tombol-kembali p{
+    padding: 10px;
+    
+    color: white;
+}
+
+/* UTAMA */
+.kalkulator-utama {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e2e2e2;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #4da19d;
+  }
+  .kalkulator-utama h2 {
+    margin-bottom: 20px;
+  }
+  .kalkulator-utama select,
+  .kalkulator-utama input {
+    padding: 10px;
+    margin: 10px 0;
+    width: 100%;
+    max-width: 300px;
+  }
+  .kalkulator-utama button {
+    padding: 10px 20px;
+    background-color: #4da19d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  .kalkulator-utama button:hover {
+    transition: 0.3s;
+    background-color: #30807c;
+  }
+  .kalkulator-utama p,
+  .kalkulator-utama #keteranganBMI {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+
+  

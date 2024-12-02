@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NutriBalance</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="konsultasi.css">
+  <link rel="stylesheet" href="kalkulator.css">
+  <link rel="stylesheet" href="https://indestructibletype.com/fonts/Jost.css">
+
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="header-container">
+      <img src="logo.png" alt="NutriBalance Logo" class="logo">
+    </div>
+  </header>
+ 
+  <!-----------------   Bagian 1      ----------------->
+
+
+  <section class="kalkulatorBMI">
+    <div class="bagian-kembali">
+        <div onclick="window.location.href='daftar-dokter.html'" class="tombol-kembali">
+            <img class="arrow-kiri" src="Arrow-kiri.png" alt="" >
+            <p><b>KEMBALI</b></p>
+        </div>
+  </section>
+
+  <div class="bagian-awal-konsul">
+    <div class="bagian-judul-konsul">
+        <h4>MASUKAN DATA DIRI ANDA DAN KELUHKESAH ANDA</h4>
+    </div>
+    <div class="bagian-tombol-konsul">
+        <p>Nama</p>
+        <input type="text" id="nama" required>
+        <p>Email</p>
+        <input type="email" id="email" required>
+        <p>Nomor Telepon</p>
+        <input type="number" id="telepon" required>
+        <p>Alamat</p>
+        <input type="text" id="alamat" required>
+        <p>Keluh Kesah Anda</p>
+        <input id="keluh" required></input>
+        <button onclick="kirimData()">Kirim</button>
+    </div>
+</div>
+
+  <footer>
+    <div class="bagian-footer-logo">
+      <img src="logo.png" alt="NutriBalance Logo" class="logo-footer">
+      
+    </div>
+    <div class="bagian-footer-utama">
+      <div class="footer-kiri">
+        <p>FAQ</p>
+        <p>kebijakan privasi</p>
+        <p>syarat & ketentuan</p>
+      </div>
+      <div class="footer-tengah">
+        <p>Media</p>
+        <p>Sercurity</p>
+        <p>Services</p>
+
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <p>©NutriBalance, 2024. ALL RIGHTS RESERVED</p>
+    </div>
+    
+  </footer>
+  <script src="konsul.js"></script>
+</body>
+
+</html>

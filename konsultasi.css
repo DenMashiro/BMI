@@ -1,0 +1,33 @@
+.bagian-awal-konsul {
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+.bagian-judul-konsul h4 {
+    text-align: center;
+}
+.bagian-tombol-konsul p {
+    margin-bottom: 5px;
+}
+.bagian-tombol-konsul input,
+.bagian-tombol-konsul textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.bagian-tombol-konsul button {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.bagian-tombol-konsul button:hover {
+    background-color: #218838;
+}

@@ -1,0 +1,68 @@
+.daftar-artis{
+    background-color: rgb(233, 233, 233);
+    text-align: center;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.judul-tips{
+    padding: 20px;
+    color: #11A3B7;
+}
+
+.daftar-tips{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.kolom-tips{
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    transition: 0.3s;
+    color: #11A3B7;
+}
+
+.kolom-tips:hover{
+    color: white;
+    transform: scale(105%);
+    background-color: #11A3B7;
+    cursor: pointer;
+}
+
+.artikel-utama{
+    margin: 0 auto;
+    padding: 50px;
+    width: 1200px;
+}
+
+.artikel-utama img{
+    margin: 20px auto;
+    display: flex; 
+    
+}
+
+.artikel-utama h1{
+    color: #11A3B7;
+    text-align: center;
+    padding: 20px;
+}
+
+.artikel-utama p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.artikel-utama h4{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+
